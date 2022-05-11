@@ -1,0 +1,33 @@
+{
+  "name": "musiconic",
+  "version": "1.0.0",
+  "description": "A free, open-source tool to reliably auto-tag your entire MP3 music collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theseyan/musiconic.git"
+  },
+  "author": "Sayanjyoti Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theseyan/musiconic/issues"
+  },
+  "homepage": "https://github.com/theseyan/musiconic#readme",
+  "dependencies": {
+    "disconnect": "^1.2.2",
+    "g-i-s": "^2.1.6",
+    "glob": "^8.0.1",
+    "last-fm": "^5.3.0",
+    "musicbrainz-api": "^0.7.2",
+    "node-id3": "^0.2.3"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "music",
+    "tag",
+    "id3"
+  ]
+}
